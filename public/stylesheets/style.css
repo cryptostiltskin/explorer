@@ -96,7 +96,14 @@ tr {
 	margin-left:5px;
 }
 
-#twitter-icon {
+#twitter-icon, 
+#facebook-icon, 
+#googleplus-icon, 
+#bitcointalk-icon, 
+#website-icon, 
+#github-icon, 
+#slack-icon,
+#youtube-icon {
 	font-size: 20px;
 }
 .connections {
@@ -116,6 +123,15 @@ tr {
 
 #market_menu {
 	margin-bottom: 5px;
+}
+
+#hashratepanel span,
+#difficultypanel span,
+#supplypanel span,
+#masternodepanel span,
+#pricepanel span{
+	margin: 0 5px 0 5px;
+	top: 0;
 }
 
 .label a:link {
